@@ -2,7 +2,7 @@
 
 Win365 is a simple independent productivity bot with three reply-keyboard buttons:
 
-- **Daily Tips** — practical everyday productivity tips.
+- **Text Counter** — word, character, and line counts for submitted text.
 - **Quick Calculator** — safely calculates basic arithmetic.
 - **Help & Information** — explains the bot's features.
 
@@ -29,12 +29,12 @@ Alternatively use the supplied Dockerfile. Run only one polling instance per bot
 ## Commands
 
 `/start` — show welcome and three-button keyboard  
-`/tips` — show a productivity tip  
+`/count` — start text counter  
 `/calc` — start calculator input  
 `/help` — show Help & Information  
 `/cancel` — exit calculator input
 
-The calculator supports +, -, *, /, parentheses, and ^ (power), with safety limits. For example: `(12 + 8) / 4`.
+The text counter counts words, characters, and lines from submitted messages (up to 4,000 characters). The calculator supports +, -, *, /, parentheses, and ^ (power), with safety limits. For example: `(12 + 8) / 4`.
 
 ## Telegram Ads destination readiness
 
